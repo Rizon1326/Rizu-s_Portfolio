@@ -5,7 +5,7 @@ import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
 import { quote } from "../../assets";
 // import logoR1 from "/Users/rizon/Desktop/Portfolio/youtubeportfolio/src/assets/images/testmonial/logoR.jpeg";
-import logoR1 from "/Users/rizon/Desktop/Portfolio/youtubeportfolio/src/assets/images/testmonial/logoR1.png";
+import logoR1 from '../../assets/images/testmonial/logoR1.png';
 
 
 function SampleNextArrow(props) {

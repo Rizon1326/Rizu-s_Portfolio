@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaEnvelope,FaGithub,FaWhatsapp,FaTelegram, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
@@ -58,9 +58,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I am a passionate professional coder, full-stack developer, and UI designer with a growing interest in AI research. I enjoy building intuitive and efficient solutions, creating seamless user experiences, and exploring innovative technologies in artificial intelligence.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -88,16 +86,64 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+          <a
+            href="bsse1326@iit.du.ac.bd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaEnvelope />
+            </span>
+          </a>
+
+          <a
+            href="https://www.facebook.com/mehedi.hasan.rizon.2024"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+          </a>
+          <a
+            href="https://github.com/Rizon1326"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/khandakar-mehedi-hasan-aa9688323/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
+        </div>
+        <div className="flex gap-4">
+          <a
+            href="https://www.linkedin.com/in/khandakar-mehedi-hasan-aa9688323/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaWhatsapp />
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/khandakar-mehedi-hasan-aa9688323/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaTelegram />
+            </span>
+          </a>
+        </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
