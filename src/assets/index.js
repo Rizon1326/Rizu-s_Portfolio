@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./images/llg1.png";
-import bannerImg from "./images/rizurisshu.png";
+import bannerImg from "./images/rizurisshu_1.png";
 //import bannerImg2 from "./images/bannerImg2.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";

@@ -8,12 +8,12 @@ import { mern1, AI_ML,ui_ux1  } from "../../assets/index";
 const projectsData = [
   {
     id: 1,
-    title: "SOCIAL MEDIA APP",
-    des: "A full-stack social media application with real-time messaging and user authentication.",
-    src: mern1,
-    type: "MERN",
-    technologies: ["MongoDB", "Express", "React", "Node.js"],
-    githubLink: "https://github.com/Rizon1326/Social_Media",
+    title: "E-Waste Management",
+    des: "My first machine learning project using Machine Learning to achieve SDG goal",
+    src: AI_ML,
+    type: "AI/ML",
+    technologies: ["Pytorch","Tensorflow","Streamlit", "scikit-learn"],
+    githubLink: "https://github.com/Rizon1326/E-Waste",
     liveLink: "#"
   },
   {
@@ -48,38 +48,9 @@ const projectsData = [
     githubLink: "https://github.com/Rizon1326/Mini_Chess_AI",
     liveLink: "#"
   },
+  
   {
     id: 5,
-    title: "E-Waste Management",
-    des: "My first machine learning project using Machine Learning to achieve SDG goal",
-    src: AI_ML,
-    type: "AI/ML",
-    technologies: ["Pytorch","Tensorflow","Streamlit", "scikit-learn"],
-    githubLink: "https://github.com/Rizon1326/E-Waste",
-    liveLink: "#"
-  },
-  {
-    id: 6,
-    title: "Resume Screening App",
-    des: "A resume screening App using ML model and streamlit",
-    src: AI_ML,
-    type: "AI/ML",
-    technologies: ["Streamlit", "nltk", "scikit-learn"],
-    githubLink: "https://github.com/Rizon1326/Resume_Screening_Tools",
-    liveLink: "#"
-  },
-  {
-    id: 7,
-    title: "Movie Review Sentiment Analysis App",
-    des: "A movie review sentiment analysis app using ML model and streamlit",
-    src: AI_ML,
-    type: "AI/ML",
-    technologies: ["Streamlit", "NLTK", "Scikit-learn"],
-    githubLink: "https://github.com/Rizon1326/Movie-Review-Sentiment-Analysis",
-    liveLink: "#"
-  },
-  {
-    id: 8,
     title: "IIT Resource and Lab Management(IITRLM)",
     des: "A full-stack MERN project designed to manage IIT lab and class scheduling efficiently, addressing the challenges of limited resources",
     src: mern1,
@@ -89,7 +60,18 @@ const projectsData = [
     liveLink: "#"
   },
   {
-    id: 9,
+    id: 6,
+    title: "Movie Review Sentiment Analysis App",
+    des: "A movie review sentiment analysis app using ML model and streamlit",
+    src: AI_ML,
+    type: "AI/ML",
+    technologies: ["Streamlit", "NLTK", "Scikit-learn"],
+    githubLink: "https://github.com/Rizon1326/Movie-Review-Sentiment-Analysis",
+    liveLink: "#"
+  },
+  
+  {
+    id: 7,
     title: "Cool City",
     des: "AI powered project using MERN",
     src: mern1,
@@ -99,15 +81,25 @@ const projectsData = [
     liveLink: "#"
   },
   {
-    id: 9,
-    title: "Cool City",
-    des: "AI powered project using MERN",
+    id: 8,
+    title: "City Garden",
+    des: "An UI/UX design to develop a Gardening App for urban areas",
     src: ui_ux1,
     type: "UI/UX",
-    technologies: ["MongoDB", "Express", "React", "Node.js","OpenAI"],
-    githubLink: "https://github.com/Rizon1326/AI-for-Change-Hackathon",
+    technologies: ["Figma"],
+    githubLink: "https://www.figma.com/proto/wVHqZJOPaMX3yNDOGSHPFQ/areYouReady!?node-id=55-55&starting-point-node-id=55%3A55",
+    liveLink: "https://www.figma.com/proto/wVHqZJOPaMX3yNDOGSHPFQ/areYouReady!?node-id=55-55&starting-point-node-id=55%3A55"
+  },
+  {
+    id: 9,
+    title: "Resume Screening App",
+    des: "A resume screening App using ML model and streamlit",
+    src: AI_ML,
+    type: "AI/ML",
+    technologies: ["Streamlit", "nltk", "scikit-learn"],
+    githubLink: "https://github.com/Rizon1326/Resume_Screening_Tools",
     liveLink: "#"
-  }
+  },
 
 ];
 

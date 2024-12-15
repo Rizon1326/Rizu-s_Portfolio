@@ -95,7 +95,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="About my success" des="Testimonial" />
+        <Title title="Current Works" des="Overview of Current Works" />
       </div>
       <div className="max-w-6xl mx-auto">
         {/* ================ Slider One ================== */}
@@ -124,7 +124,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                       Something
+                      IntelliEd
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
                         
@@ -139,7 +139,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Looking for acievement
+                     A AI based MERN project which goal is to develop a AI based educational platform 
                   </p>
                 </div>
               </div>
@@ -171,7 +171,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                       Something
+                      AI in health
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
                         
@@ -186,7 +186,8 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Looking for acievement
+                  A research study on AI to explore its implementation in the healthcare sector.
+                     
                   </p>
                 </div>
               </div>

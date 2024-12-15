@@ -51,6 +51,25 @@ const Achievement = () => {
               </>
             }
           />
+          <ResumeCard
+            title="Geeky Solutions Learnathon 3.0. 
+"
+            subTitle="Shortlisted"
+            result="Selected"
+            des={
+              <>
+               We are selected as shortlisted team for Learnathon 3.0 among the top 507 candidates out of 2,521.
+               <a
+                  href="https://learnathon.geeky.solutions" // Replace with the actual link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500"
+                >
+                   Event Link
+                </a>
+              </>
+            }
+          />
         </div>
       </div>
     </motion.div>
