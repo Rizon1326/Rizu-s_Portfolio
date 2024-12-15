@@ -52,7 +52,7 @@ const Achievement = () => {
             }
           />
           <ResumeCard
-            title="Geeky Solutions Learnathon 3.0. 
+            title="Geeky Solutions Learnathon 3.0
 "
             subTitle="Shortlisted"
             result="Selected"
